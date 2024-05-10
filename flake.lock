@@ -1,0 +1,83 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1690835256,
+        "narHash": "sha256-SZy/Nvwbf6CorhEsvmjqgjoYNLnRfaKVZMfSnpUDPnc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b7cde1c47b7316f6138a2b36ef6627f3d16d645c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b7cde1c47b7316f6138a2b36ef6627f3d16d645c",
+        "type": "github"
+      }
+    },
+    "pulumi_darwin_arm64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710445408,
+        "narHash": "sha256-golfo9YgrvcgIC+ozBzpWXFd3srpJRN8IZ9dcv8xmDc=",
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-darwin-arm64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-darwin-arm64.tar.gz"
+      }
+    },
+    "pulumi_darwin_x64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710445404,
+        "narHash": "sha256-SE4EoFyzvo7y++50zfzEnIdGKKaH261qd2onkmlXXRg=",
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-darwin-x64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-darwin-x64.tar.gz"
+      }
+    },
+    "pulumi_linux_arm64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710445404,
+        "narHash": "sha256-nTBz0viinpM024I+/AvuOtw9aZRJYqapkgWl5a/IjjI=",
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-linux-arm64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-linux-arm64.tar.gz"
+      }
+    },
+    "pulumi_linux_x64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710445403,
+        "narHash": "sha256-Wcj+C1O5NQrl1BRksIlo1483F/y5VjO/Vee/tM5D9iE=",
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-linux-x64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/pulumi/esc/releases/download/v0.8.3/esc-v0.8.3-linux-x64.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "pulumi_darwin_arm64": "pulumi_darwin_arm64",
+        "pulumi_darwin_x64": "pulumi_darwin_x64",
+        "pulumi_linux_arm64": "pulumi_linux_arm64",
+        "pulumi_linux_x64": "pulumi_linux_x64"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
