@@ -38,7 +38,7 @@
             name = "pulumi-esc-${version}";
             version = "${version}";
             src = pulumi_src;
-            installPhase = "mkdir -p $out/bin && cp $src/esc* $out/bin/ && $out/bin/esc version > $out/version.txt";
+            installPhase = "mkdir -p $out/bin && cp $src/esc* $out/bin/";
           };
 
       packages = sys:
